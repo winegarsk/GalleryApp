@@ -1,0 +1,148 @@
+.galleria{
+	max-width: 70%;
+	height: 500px;
+	margin: 0 auto;
+    align-content: center;
+}
+
+@font-face {
+ font-family: coves;
+ src:url(coves_typeface/coves_light.otf);
+    
+}
+
+h1 {
+ color: darkseagreen;
+ font-family: coves;
+ font-size: 150px;
+ letter-spacing: 3px;
+ text-align: center;
+ padding: 10px;
+ margin: 0;
+ 
+}
+
+body {
+ background-image: url("background1.jpg");
+ background-color: #cccccc;
+ background-repeat: no-repeat;
+ background-size: 1500px;
+ background-position: fixed;
+ width: 100%;
+ 
+}
+
+.footer {
+  font-family: coves;
+  position: fixed;
+  overflow: hidden;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: lightpink;
+  color: darkgreen;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+
+.header_container{
+  overflow: hidden;
+  position: fixed;
+  background: linear-gradient(to left, #ffffff 40%, #ffe5e5 113%);
+  height: 40px;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  width: 100%;
+
+}
+
+.header_links a {
+  font-family: coves;
+  color: darkseagreen;
+  text-align: center;
+  font-size: 30px;
+  text-decoration: none;
+  padding-left: 25px;
+}
+
+.header a:hover {
+    color: darkgreen;
+}
+
+.content_container {
+ background-color:aliceblue;
+ border-radius: 25px;
+ position: absolute;
+ z-index: -1;
+ overflow: auto;
+ margin-left: 140px;
+ padding-top: 5px;
+ margin-top: 30px;
+ height: 90%;
+ width: 80%;
+
+}
+
+.tile_container {
+ margin-left: 60px;
+    
+}
+
+.tileLrg {
+ height: 600px;
+ width: 75%;
+ background-color: antiquewhite;
+ border-radius: 25px;
+ padding: 20px;
+ margin: 80px 10px 10px 120px;
+ align-content: center;
+}
+
+
+.tile {
+ height: 300px;
+ width: 300px;
+ background-color: antiquewhite;
+ border-radius: 25px; 
+ padding: 10px;
+ margin: 10px;
+ float: left;
+ position: relative;
+ z-index: 1;
+
+}
+
+.tile_content {  
+  color: #275377;
+  padding: 10px;
+  margin-left: 5px;
+  font-family: coves;
+  font-weight: 900;
+  letter-spacing: 1.15px;
+  word-wrap: break-word;
+  
+}
+
+.tile_content a{
+  float:left;
+  position: absolute;
+  top: 220px;
+  left: 200px;
+    
+}
+
+.back img {
+    height: 60px;
+    width: 60px;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+
+
+
+

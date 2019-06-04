@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>title</title>
+  <link rel = "icon" type = image/ico href= "jungle.ico">  
+  <link href="../public/stylesheets/website.css" rel="stylesheet" type="text/css">
+     <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+      <script src="/galleria/galleria-1.5.7.min.js"></script>
+      <script type='text/javascript' src='../public/javascripts/page.js'></script>
+  </head>
+  <body>
+  <div class= "header_container" id= "header_container">
+    <div class= "header_links" id= "header_links">
+    <a class="active" href="index.html">Home</a>
+    <a href="#contact">Contact</a>
+    <a href="#about">About</a>
+    </div>
+  </div>
+      <div class = "tileLrg" id= "tileLrg">
+         <div class= "tileLrg_gallery"></div>
+           	<div class="add_img">
+              <a href="notworkingyet.hbs"><img alt="add image" src="../styles/icons/icons8-pictures-folder-64.png" title="add_img"></a>
+            </div>
+           	<div class="back">
+              <a href="index.hbs"><img alt="back to home page" src="../styles/icons/icons8-undo-100.png" title="back"></a>
+      <div class="galleria">
+      
+        {{#each imgs}}
+            <img src="{{this}}">
+        {{/each}}
+      
+      </div>
+            </div>    
+      </div>
+   </body>
+  <div class= "footer" id= "footer">   
+      <a href="https://www.freepik.com/free-photos-vectors/background">Background vector created by rawpixel.com - www.freepik.com</a>
+      <div>Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+  </div>
+</html>
